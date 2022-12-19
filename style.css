@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:b|Poppins");
+
+* {
+  margin: 0;
+  padding: 0;
+  color: black;
+  list-style: none;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Poppins";
+}
+
+header {
+  background-image: url(./assets/bg1.webp);
+  background-size: cover;
+  text-align: center;
+  height: 100vh;
+}
+
+header img {
+  margin: 1.5rem;
+}
+
+nav {
+  border-top: 1px solid grey;
+  border-bottom: 1px solid grey;
+  padding: 1.5rem;
+  margin: 0 15vw;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li a {
+  margin: 1rem;
+}
+
+nav ul li a:hover {
+  color: red;
+  transition: color 0.5s;
+}
+
+nav ul li a,
+.container-header p,
+h1,
+.container-header button {
+  color: white;
+}
+
+.container-header {
+  text-align: start;
+  margin: 25vh 15vw;
+  width: 40vw;
+}
+
+.container-header p:first-child {
+  text-transform: uppercase;
+}
+
+h1 {
+  margin: 0.5rem 0;
+  font-size: 4rem;
+  font-weight: 900;
+}
+
+.red-button {
+  padding: 1rem 2rem;
+  background-color: red;
+  border: none;
+  margin: 2rem 0;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+}
+
+.container-header .red-button:hover {
+  background-color: black;
+  transition: background-color 0.5s;
+}
+
+#about {
+  display: flex;
+  margin: 5rem 15vw;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#about article {
+  width: 40vw;
+}
+
+h2 {
+  font-size: 2rem;
+  text-transform: capitalize;
+}
+
+#about .red-button:hover {
+  box-shadow: 0px 25px 20px 0px rgb(245 63 81 / 20%);
+  transition: box-shadow 0.5s;
+}
