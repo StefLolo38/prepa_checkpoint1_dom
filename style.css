@@ -100,3 +100,13 @@ h2 {
   box-shadow: 0px 25px 20px 0px rgb(245 63 81 / 20%);
   transition: box-shadow 0.5s;
 }
+
+#order {
+  width: 50vw;
+  margin: auto;
+}
+
+#order form input {
+  width: 25vw;
+  margin: 5px;
+}
